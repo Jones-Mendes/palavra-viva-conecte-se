@@ -3,16 +3,24 @@
 Aplicacao web MVP para apoiar a leitura biblica diaria com uma experiencia simples, visual e objetiva. O sistema reune verso do dia, temas de interesse, planos de leitura e indicadores de progresso em uma unica interface.
 
 ## Sobre o Projeto
+<img width="1808" height="851" alt="image" src="https://github.com/user-attachments/assets/d8721613-d861-4323-9d1b-7f58d8cc34b3" />
+
+
+
 
 Palavra Viva foi pensado para pessoas que querem manter constancia na leitura da Biblia, mas precisam de uma experiencia mais guiada e acessivel. A proposta do projeto e oferecer uma pagina unica, com navegacao clara e secoes que ajudam o usuario a iniciar a leitura, encontrar passagens relacionadas ao momento que esta vivendo e acompanhar sua jornada.
 
 Como MVP, o foco esta em simplicidade, funcionalidade e valor rapido. Por isso, a aplicacao evita fluxos complexos e privilegia componentes claros, conteudo direto e uma integracao pontual com IA na parte mais relevante para descoberta de conteudo.
+
+
 
 ## Temas
 
 ### Como a IA e utilizada no projeto
 
 A Inteligencia Artificial e usada na secao Temas. Nela, o usuario escolhe um assunto como ansiedade, perdao, esperanca, gratidao ou sabedoria e pode pedir novas sugestoes de textos biblicos relacionadas a esse contexto.
+
+<img width="1458" height="771" alt="image" src="https://github.com/user-attachments/assets/861ca516-bcfd-4785-82c1-14833ae15a7e" />
 
 ### Papel da IA dentro do sistema
 
