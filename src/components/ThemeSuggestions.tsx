@@ -164,13 +164,16 @@ export default function ThemeSuggestions() {
 
   const currentSuggestions = themeSuggestions[selected];
 
+  const endpoint = import.meta.env.VITE_API_BASE_URL
+    ? `${import.meta.env.VITE_API_BASE_URL}/api/theme-suggestions`
+    : "/api/theme-suggestions";
+
   const generateSuggestions = async () => {
     setIsLoading(true);
     setError(null);
 
     try {
-      const apiBase = import.meta.env.VITE_API_BASE_URL ?? "";
-      const response = await fetch(`${apiBase}/api/theme-suggestions`, {
+      const response = await fetch(endpoint, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -87,6 +87,7 @@ Exemplo:
 VITE_ABIBLIA_TOKEN=
 VITE_API_BASE_URL=http://localhost:5174
 OPENAI_API_KEY=sua_chave_openai
+OPENAI_MODEL=gpt-4o-mini
 CORS_ORIGIN=http://localhost:8080
 ```
 
@@ -96,7 +97,7 @@ CORS_ORIGIN=http://localhost:8080
 npm run dev
 ```
 
-4. Em outro terminal, inicie o backend:
+4. Em outro terminal, inicie o backend local:
 
 ```bash
 npm run server
@@ -110,6 +111,13 @@ npm run server
 - O backend concentra a integracao com a OpenAI e protege a chave da API.
 - A resposta da IA e convertida para um formato simples: tema e lista de sugestoes.
 - Quando a IA nao responde corretamente, a interface continua funcional com conteudo inicial.
+
+## Deploy na Vercel
+
+- A rota `api/theme-suggestions` funciona como funcao serverless na Vercel.
+- Em producao, o frontend usa a rota relativa `/api/theme-suggestions`.
+- O arquivo `vercel.json` garante o rewrite das rotas do React Router sem interceptar `/api`.
+- Na Vercel, configure as variaveis `OPENAI_API_KEY`, `OPENAI_MODEL` e, se necessario, `VITE_ABIBLIA_TOKEN`.
 
 ## Refatoracoes Aplicadas
 

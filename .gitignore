@@ -26,6 +26,4 @@ dist-ssr
 # Environment files
 .env
 .env.*
-!.env.example{
-  "toolbar": false
-}
+.env.example
