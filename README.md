@@ -22,6 +22,8 @@ A Inteligencia Artificial e usada na secao Temas. Nela, o usuario escolhe um ass
 
 <img width="1458" height="771" alt="image" src="https://github.com/user-attachments/assets/861ca516-bcfd-4785-82c1-14833ae15a7e" />
 
+![Gravação de Tela 2026-04-02 013742](https://github.com/user-attachments/assets/5d80154d-f885-452e-b2cd-c2d29d208765)
+
 ### Papel da IA dentro do sistema
 
 A IA funciona como um mecanismo de recomendacao. Ela amplia a experiencia do usuario ao gerar novas combinacoes de referencias, trechos e insights curtos, mantendo a interface principal enxuta e centrada no conteudo.
