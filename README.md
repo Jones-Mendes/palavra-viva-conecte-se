@@ -24,7 +24,7 @@ A Inteligencia Artificial e usada na secao Temas. Nela, o usuario escolhe um ass
 
 ### Papel da IA dentro do sistema
 
-A IA funciona como um mecanismo de recomendacao. Ela amplia a experiencia do usuario ao gerar novas combinacoes de referencias, trechos e insights curtos, mantendo a interface principal enxuta e centrada no conteudo.
+A I.A funciona como um mecanismo de recomendacao. Ela amplia a experiencia do usuario ao gerar novas combinacoes de referencias, trechos e insights curtos, mantendo a interface principal enxuta e centrada no conteudo.
 
 ### Como funciona
 
